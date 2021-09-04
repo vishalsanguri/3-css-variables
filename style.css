@@ -1,0 +1,26 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+:root{
+    --base: yellow;
+    --spacing:10px;
+    --blur:0px;
+}
+.hilight{
+    color: var(--base);
+}
+.imagebox{
+    padding: var(--spacing);
+    border: 2px solid red;
+    display: flex;
+    background-color: var(--base);
+    justify-content:center;
+    align-items: center;
+    margin: 5vh auto;
+}
+.image{
+    filter:blur(var(--blur)) ;
+    width: 80vw;
+    height: 70vh;
+}
